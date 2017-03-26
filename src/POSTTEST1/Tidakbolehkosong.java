@@ -91,6 +91,11 @@ public class Tidakbolehkosong extends javax.swing.JFrame {
             }
         });
 
+        txtNP.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtNPActionPerformed(evt);
+            }
+        });
         txtNP.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 txtNPKeyPressed(evt);
@@ -122,6 +127,11 @@ public class Tidakbolehkosong extends javax.swing.JFrame {
 
         txtnom1.setEditable(false);
         txtnom1.setText("+62");
+        txtnom1.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                txtnom1ActionPerformed(evt);
+            }
+        });
         txtnom1.addKeyListener(new java.awt.event.KeyAdapter() {
             public void keyPressed(java.awt.event.KeyEvent evt) {
                 txtnom1KeyPressed(evt);
@@ -378,6 +388,14 @@ public class Tidakbolehkosong extends javax.swing.JFrame {
         // TODO add your handling code here:
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
+
+    private void txtnom1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtnom1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtnom1ActionPerformed
+
+    private void txtNPActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtNPActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtNPActionPerformed
 
     /**
      * @param args the command line arguments
